@@ -1,0 +1,3 @@
+#!/bin/sh
+
+GEM_HOME=vendor/bundle/jruby/1.9 java -jar vendor/jruby-complete-1.7.4.jar bin/puma -C config/puma.rb
